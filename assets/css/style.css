@@ -117,7 +117,21 @@ footer {
     width: 100%;
     font-size: 20px;
     text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    box-shadow: 0 6px rgb(172, 97, 153);
+    animation-name: btn;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-in-out;
 }
+
+@keyframes btn {
+    from {background-color: rgb(155, 70, 135);}
+    to {background-color: rgb(172, 97, 153);}
+  }
 
 .grid-container {
     display: grid;
